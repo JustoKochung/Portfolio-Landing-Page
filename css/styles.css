@@ -1,8 +1,15 @@
 h1 {
-  color: brown;
+  color: navy;
   text-align: center;
 }
 img {
-  max-width: auto;
-  max-height: auto;
+  max-width: 200px;
+  max-height: 250px;
+  position: center;
+}
+.intro {
+  color: brown;
+}
+body {
+  background-color: yellowgreen;
 }
