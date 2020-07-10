@@ -5,11 +5,37 @@ h1 {
 img {
   max-width: 200px;
   max-height: 250px;
-  position: center;
+  float: left;
+
 }
 .intro {
   color: brown;
+  font-style: normal;
+}
+.chapter {
+  color: blue;
+}
+.sidebar2 {
+  background-color: burlywood;
+  width: 500px;
+}
+.sidebar3 {
+  background-color: pink;
+  width: 500px;
+}
+.sidebar4 {
+  width: 500px;
+  background-color: greenyellow;
+}
+.ambition {
+  color: red;
 }
 body {
-  background-color: yellowgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box  {
+  background-color: greenyellow;
+  border: solid red;
+  padding: 10x;
+
 }
