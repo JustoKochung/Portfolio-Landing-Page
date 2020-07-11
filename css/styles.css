@@ -3,44 +3,49 @@ h1 {
   text-align: center;
 }
 #container {
-  width: 800px;
+  width: 1000px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 11px;
+  margin-top: 40px;
 }
 .about {
   background-color: burlywood;
-  width: 500px;
+  width: 400px;
   border: solid red;
+  height: 480px;
+  float: left;
 }
 .interest {
   background-color: pink;
-  width: 500px;
   border: solid blue;
+  height: 300px;
+  clear: both;
 }
 .coding {
-  width: 500px;
   background-color: greenyellow;
   border: solid green;
+  height: 120px;
+  clear: both;
 }
 .projects  {
   background-color: greenyellow;
   border: solid red;
-  padding: 10x;
+  width: 450px;
+  height: 480px;
+  float: right;
 }
 .ambition {
   color: red;
-}
-chapter {
-  color: blue;
 }
 .intro {
   color: brown;
   font-style: normal;
 }
-img {
-  max-width: 200px;
-  max-height: 250px;
-  float: left;
+#name {
+  border: solid blueviolet;
+  height: 50px;
+}
+.image {
+  width: 120px;
 }
