@@ -2,40 +2,45 @@ h1 {
   color: navy;
   text-align: center;
 }
-img {
-  max-width: 200px;
-  max-height: 250px;
-  float: left;
-
+#container {
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11px;
+}
+.about {
+  background-color: burlywood;
+  width: 500px;
+  border: solid red;
+}
+.interest {
+  background-color: pink;
+  width: 500px;
+  border: solid blue;
+}
+.coding {
+  width: 500px;
+  background-color: greenyellow;
+  border: solid green;
+}
+.projects  {
+  background-color: greenyellow;
+  border: solid red;
+  padding: 10x;
+}
+.ambition {
+  color: red;
+}
+chapter {
+  color: blue;
 }
 .intro {
   color: brown;
   font-style: normal;
 }
-.chapter {
-  color: blue;
-}
-.sidebar2 {
-  background-color: burlywood;
-  width: 500px;
-}
-.sidebar3 {
-  background-color: pink;
-  width: 500px;
-}
-.sidebar4 {
-  width: 500px;
-  background-color: greenyellow;
-}
-.ambition {
-  color: red;
-}
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.box  {
-  background-color: greenyellow;
-  border: solid red;
-  padding: 10x;
-
+img {
+  max-width: 200px;
+  max-height: 250px;
+  float: left;
 }
