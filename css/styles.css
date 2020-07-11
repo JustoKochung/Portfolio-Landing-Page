@@ -10,27 +10,19 @@ h1 {
   margin-top: 40px;
 }
 .about {
-  background-color: burlywood;
   width: 400px;
-  border: solid red;
   height: 480px;
   float: left;
 }
 .interest {
-  background-color: pink;
-  border: solid blue;
   height: 300px;
   clear: both;
 }
 .coding {
-  background-color: greenyellow;
-  border: solid green;
   height: 120px;
   clear: both;
 }
 .projects  {
-  background-color: greenyellow;
-  border: solid red;
   width: 450px;
   height: 480px;
   float: right;
@@ -43,10 +35,12 @@ h1 {
   font-style: normal;
 }
 #name {
-  border: solid blueviolet;
   height: 50px;
 }
 .image {
   width: 130px;
   width: 130px;
+}
+body {
+  background-color: yellowgreen;
 }
